@@ -1,0 +1,61 @@
+#header
+{
+	width: 500px;
+	margin:0px auto;
+	text-align:center;
+}
+#header h1
+{
+	font-size:40px;
+	font-weight: bold;
+	margin:0px auto;
+}
+#header h1 span
+{
+	font-size:20px;	
+}
+#header a
+{
+	display:block;
+	font-size:20px;
+	width: 140px;
+	height: 40px;
+	line-height:40px; 
+	background:#8f7a66;
+	border-radius:10px;
+	margin:10px auto;
+	color:#fff;
+	text-decoration: none;
+
+}
+#header p
+{
+	font-size:25px;
+	margin:6px auto;
+}
+#grid-container
+{
+	width: 460px;
+	height: 460px;
+	padding:20px;
+	margin:0px auto;
+	background:#bbada0;
+	position:relative;
+	border-radius:10px;
+}
+#grid-container .grid-cell
+{
+	width: 100px;
+	height: 100px;
+	background:#ccc0b3;
+	position:absolute;
+	border-radius:6px;
+}
+#grid-container .num-cell
+{
+	position:absolute;
+	border-radius:6px;
+	text-align:center;
+	font: bold 50px Arial;
+	line-height:100px;
+}
